@@ -25,7 +25,7 @@ function Hero() {
             <div className="flex w-[50%] flex-col items-start justify-start ">
 
                 <div className="flex flex-col z-10">
-                    <h1 className="text-5xl font-bold track mb-6">Make The Best <br /> Financial Decisions</h1>
+                    <h1 className="text-6xl font-bold tracking-tighter mb-6">Make The Best <br /> Financial Decisions</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vitae voluptates, ea dolores at eius ab optio rerum possimus eos </p>
                     <div className="flex flex-row items-center justify-start mt-10" >
                         <div className="h-[60px] min-w-[180px] flex items-center justify-center text-white bg-black rounded-sm text-lg">
@@ -42,7 +42,6 @@ function Hero() {
                     <img src="https://res.cloudinary.com/djoebsejh/image/upload/v1717301220/Prescription_Testres/wb0yevi76hnkuhnwsthi.png" alt="a" />
                 </div>
             </div>
-            {/* Representation */}
             {/* Representation */}
             <div className="relative w-[50%] flex flex-row items-center justify-center">
                 <div className="relative w-full h-[90vh] flex items-start justify-start">
@@ -63,18 +62,7 @@ function Hero() {
                             </defs>
                         </svg>
                     </div>
-                    {/* <div className="absolute top-[240px] left-[40px]  z-0">
-                        <svg width="528" height="479" viewBox="0 0 528 479" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g filter="url(#filter0_f_101_131)">
-                                <ellipse cx="283.618" cy="239.068" rx="198.714" ry="107.054" transform="rotate(150 283.618 239.068)" fill="#DCDCDC" />
-                            </g>
-                            <defs>
-                                <filter id="filter0_f_101_131" x="0.192055" y="0.0192642" width="566.853" height="478.098" filterUnits="userSpaceOnUse">
-                                    <feGaussianBlur stdDeviation="51.5773" result="effect1_foregroundBlur_101_131" />
-                                </filter>
-                            </defs>
-                        </svg>
-                    </div> */}
+                   
                 </div>
             </div>
 

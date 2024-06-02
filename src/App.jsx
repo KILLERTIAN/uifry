@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-     <div className="m-[30px] flex flex-col items-center backdrop-blur-md">
+     <div className=" flex flex-col items-center backdrop-blur-md">
      <Navbar/>
      <Hero/>
      <Features/>

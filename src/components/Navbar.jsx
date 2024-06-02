@@ -1,7 +1,7 @@
 
 function Navbar() {
     return (
-        <div className="flex flex-row items-center justify-between max-w-[1090px] w-full h-[60px]">
+        <div className="flex flex-row items-center justify-between max-w-[1090px] w-full h-[60px] mt-10 mb-5">
             <div className="flex flex-row items-center">
                 {/* Logo */}
                 <div className=" flex flex-row items-center justify-center m-0 mr-10 p-0">
