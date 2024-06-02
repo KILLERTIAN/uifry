@@ -28,11 +28,11 @@ function Hero() {
                     <h1 className="text-6xl font-bold tracking-tighter mb-6">Make The Best <br /> Financial Decisions</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vitae voluptates, ea dolores at eius ab optio rerum possimus eos </p>
                     <div className="flex flex-row items-center justify-start mt-10" >
-                        <div className="h-[60px] min-w-[180px] flex items-center justify-center text-white bg-black rounded-sm text-lg">
+                        <div className="h-[60px] min-w-[180px] flex items-center justify-center text-white bg-black rounded-sm text-lg cursor-pointer">
                             Get Started
                             <img className="ml-2" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717301924/Prescription_Testres/dcjlml8frags8bipo91p.png" alt="arrow" />
                         </div>
-                        <div className="h-[60px] min-w-[180px] flex items-center justify-center text-black rounded-sm text-lg">
+                        <div className="h-[60px] min-w-[180px] flex items-center justify-center text-black rounded-sm text-lg cursor-pointer">
                             <img className="mr-2 ml-10" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302126/Prescription_Testres/dxgmrsxkhirhakznt5vf.png" alt="video" />
                             Watch Video
                         </div>

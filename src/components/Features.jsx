@@ -2,8 +2,9 @@ function Features() {
     return (
         <div className="flex flex-row min-w-[1388px] w-full pl-10 items-center justify-center min-h-[80vh] pt-10">
             <div className="flex items-center justify-center w-[50%]">
+                <img className="absolute left-3 z-10" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717306659/Prescription_Testres/j6tkve6awbzxg4bhugxp.png" alt="eclipse" />
                 <img className="absolute  z-10" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717319373/Prescription_Testres/hvyjezvkr2uur3le8sev.png" alt="iphone" />
-                <img className="absolute left-3 z-0" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717306659/Prescription_Testres/j6tkve6awbzxg4bhugxp.png" alt="eclipse" />
+
                 {/* SVG */}
                 <div className="absolute left-0">
                     <svg width="577" height="493" viewBox="0 0 577 493" fill="none" xmlns="http://www.w3.org/2000/svg">

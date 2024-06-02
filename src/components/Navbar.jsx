@@ -26,7 +26,7 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-            <div className="h-full w-[180px] flex items-center justify-center text-white bg-black rounded-sm text-lg">
+            <div className="h-full w-[180px] flex items-center justify-center text-white bg-black rounded-sm text-lg cursor-pointer">
                 Download
             </div>
         </div>
