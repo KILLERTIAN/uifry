@@ -1,27 +1,11 @@
+import FadeIn from "./FadeIn";
+
 function Hero() {
     return (
         <div className="w-[1090px] min-h-[90vh] flex flex-row items-center justify-center  pt-10 backdrop-blur-md  bg-white">
             {/* Title */}
-            <div className="absolute -top-[80px] left-0 z-5">
-                <svg width="517" height="430" viewBox="0 0 517 430" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g filter="url(#filter0_f_101_132)">
-                        <ellipse cx="245" cy="253.5" rx="145" ry="76.5" fill="#FDE598" />
-                    </g>
-                    <g filter="url(#filter1_f_101_132)">
-                        <ellipse cx="275" cy="176.5" rx="142" ry="76.5" fill="#FF5555" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_101_132" x="0" y="77" width="490" height="353" filterUnits="userSpaceOnUse">
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_101_132" />
-                        </filter>
-                        <filter id="filter1_f_101_132" x="33" y="0" width="484" height="353" filterUnits="userSpaceOnUse">
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_101_132" />
-                        </filter>
-                    </defs>
-                </svg>
-            </div>
+
+
             <div className="flex w-[50%] flex-col items-start justify-start ">
 
                 <div className="flex flex-col z-10">
@@ -43,12 +27,37 @@ function Hero() {
                 </div>
             </div>
             {/* Representation */}
+
             <div className="relative w-[50%] flex flex-row items-center justify-center">
                 <div className="relative w-full h-[90vh] flex items-start justify-start">
-                    <img className="absolute top-[-100px] left-[-50px] z-10" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302414/Prescription_Testres/l3deprsq8839kwcc6n6k.png" alt="1" style={{ zIndex: 3 }} />
-                    <img className="absolute top-[-30px] left-[75px] z-20" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302457/Prescription_Testres/lqdnavxdbug8xd9lnfwd.png" alt="2" style={{ zIndex: 2 }} />
-                    <img className="absolute top-[40px] left-[200px] z-30" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302414/Prescription_Testres/l3deprsq8839kwcc6n6k.png" alt="3" style={{ zIndex: 1 }} />
-                    <img className="absolute top-[-90px] left-[80px] h-[700px] w-[700px] z-0" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717306659/Prescription_Testres/j6tkve6awbzxg4bhugxp.png" alt="eclipse" />
+                <img className="absolute top-[-90px] left-[80px] h-[700px] w-[700px] z-5" src="https://res.cloudinary.com/djoebsejh/image/upload/v1717306659/Prescription_Testres/j6tkve6awbzxg4bhugxp.png" alt="eclipse" />
+                    <FadeIn direction="left" delay={0.2}>
+                        <img
+                            className="absolute top-[-100px] left-[-50px] z-10 ease-in"
+                            src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302414/Prescription_Testres/l3deprsq8839kwcc6n6k.png"
+                            alt="1"
+                            style={{ zIndex: 3 }}
+                        />
+                    </FadeIn>
+                    <FadeIn direction="left" delay={0.4}>
+                        <img
+                            className="absolute top-[-30px] left-[75px] z-20 ease-in"
+                            src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302457/Prescription_Testres/lqdnavxdbug8xd9lnfwd.png"
+                            alt="2"
+                            style={{ zIndex: 2 }}
+                        />
+                    </FadeIn>
+                    <FadeIn direction="left" delay={0.6}>
+                        <img
+                            className="absolute top-[40px] left-[200px] z-30 ease-in"
+                            src="https://res.cloudinary.com/djoebsejh/image/upload/v1717302414/Prescription_Testres/l3deprsq8839kwcc6n6k.png"
+                            alt="3"
+                            style={{ zIndex: 1 }}
+                        />
+                    </FadeIn>
+
+
+                    
                     {/* SVG */}
                     <div className="absolute top-[240px] left-[40px]  z-0">
                         <svg width="528" height="479" viewBox="0 0 528 479" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +71,7 @@ function Hero() {
                             </defs>
                         </svg>
                     </div>
-                   
+
                 </div>
             </div>
 
